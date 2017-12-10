@@ -1,0 +1,30 @@
+PODS:
+  - HFFoundation (0.0.1):
+    - HFFoundation/Category (= 0.0.1)
+    - HFFoundation/Controller (= 0.0.1)
+    - HFFoundation/Util (= 0.0.1)
+    - HFFoundation/View (= 0.0.1)
+  - HFFoundation/Category (0.0.1)
+  - HFFoundation/Controller (0.0.1)
+  - HFFoundation/Util (0.0.1)
+  - HFFoundation/View (0.0.1):
+    - HFFoundation/Category
+
+DEPENDENCIES:
+  - HFFoundation (from `https://github.com/hehongling/HFFoundation.git`)
+
+EXTERNAL SOURCES:
+  HFFoundation:
+    :git: https://github.com/hehongling/HFFoundation.git
+
+CHECKOUT OPTIONS:
+  HFFoundation:
+    :commit: 11f4ed85ef1536194ee4cb4ab6556f7731365726
+    :git: https://github.com/hehongling/HFFoundation.git
+
+SPEC CHECKSUMS:
+  HFFoundation: 6113d238401f1fe2887fbeb4f5dee45def033c13
+
+PODFILE CHECKSUM: c110acc282309f3576136a03738bc8d75eacb02c
+
+COCOAPODS: 1.4.0.beta.1

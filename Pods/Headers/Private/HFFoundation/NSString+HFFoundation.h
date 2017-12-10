@@ -1,0 +1,1 @@
+../../../HFFoundation/HFFoundation/HFFoundation/Category/Foundation/NSString+HFFoundation.h

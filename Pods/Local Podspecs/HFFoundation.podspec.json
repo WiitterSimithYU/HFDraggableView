@@ -1,0 +1,48 @@
+{
+  "name": "HFFoundation",
+  "version": "0.0.1",
+  "summary": "The universal tools for iOS development.",
+  "license": "MIT",
+  "homepage": "https://github.com/HonglingHe/HFFoundation",
+  "authors": {
+    "HenryHe": "henry725@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/HonglingHe/HFFoundation.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "HFFoundation/HFFoundation",
+  "public_header_files": "HFFoundation/HFFoundation/HFFoundation.h",
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "CoreGraphics"
+  ],
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "HFFoundation/HFFoundation/Category/**/*.{h,m,c,mm}"
+    },
+    {
+      "name": "View",
+      "source_files": "HFFoundation/HFFoundation/View/**/*.{h,m,c,mm}",
+      "dependencies": {
+        "HFFoundation/Category": [
+
+        ]
+      }
+    },
+    {
+      "name": "Controller",
+      "source_files": "HFFoundation/HFFoundation/Controller/**/*.{h,m,c,mm}"
+    },
+    {
+      "name": "Util",
+      "source_files": "HFFoundation/HFFoundation/Util/**/*.{h,m,c,mm}"
+    }
+  ]
+}

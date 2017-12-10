@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062EF89D04E6BF68CF9AE1F380EBECD6 /* UIBarButtonItem+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3DABC8A8935B57808F011C8372C89F /* UIBarButtonItem+HFFoundation.m */; };
+		130AA7A615441356B609153A1CAF1405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515752A6021EEB552BC00D106969B6EF /* Foundation.framework */; };
+		16A2CF0F6F5E4485430B6AB560B6399C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27A42EEDFFDABB73014EB6607CB7A14 /* CoreFoundation.framework */; };
+		200DFBE78FCD73BEDF286B50F7FD6908 /* UIViewController+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D217D86514677F2023C982BCEC6D385D /* UIViewController+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23BB34915E2D33435B3E749D22CFF7F6 /* NSDictionary+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = BEA994A1ADDDEB010E9FDB9DEAA8378C /* NSDictionary+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		329F380B84B73DBAF4FCBB3D3EA693AF /* NSObject+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE4B392157DA439FC7914F00BC0B3C10 /* NSObject+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37645A9C1F77E2BCB0F0852E430B49B1 /* HFFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD413E0CF9AC0C208CB6B9EEF46BE32 /* HFFPSLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF432437EFA2D6A3CA8115BDDF68BEB /* HFKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DC2D72ABA920014D5AA3C7942EED78 /* HFKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BCC10E8168F647891D2EFA66E7F6651 /* HFSystemLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C250931DA289C6D35F331649D866E9 /* HFSystemLog.m */; };
+		423E2BF7077CBA66A9E761A3CDC82E30 /* HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A552D8144AB70200EAE561682D457B8 /* HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		427BD281FED2083F4F21D3014DC28617 /* UIViewController+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 179EA88526FC056233FD41BD17886CE3 /* UIViewController+HFFoundation.m */; };
+		44C8EF7BD60BAB9FE57FCE63976D7D03 /* NSString+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB25FEE27E29CAC168399F1008270CFE /* NSString+HFFoundation.m */; };
+		47BDDF519C8A9A0F635000E889F75B65 /* HFSystemLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE1B5B70F6C9EAD2975052715B14340 /* HFSystemLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48F1EDED36D24DBCE03986FCEE288495 /* UIImageView+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A7052B46AB5C0F9474DF9BB76028E9D2 /* UIImageView+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B87D1B503A213C1F81227EB58F4199D /* HFPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2A8BA343D79D81801B31A6F077F3F9 /* HFPageView.m */; };
+		4BD6FAD775B02056E4B104257B1B101A /* UIButton+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82D4CC217B067802804ECA8EEE46C0 /* UIButton+HFFoundation.m */; };
+		58272FF7AB718A2AF18F6AD145E47C62 /* HFPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8969F1457EDBDDC6D23C5543D307A0CE /* HFPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5832790DA8907539EFEAEF3AB3EA5BA9 /* HFPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 009537707E3459E96D8A114D8261311B /* HFPlaceHolder.m */; };
+		5AE39FE25CB9421C38997B283CE090A1 /* HFExampleListController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFCE419A58BB765B27BA51DAC7A321B /* HFExampleListController.m */; };
+		5B97FE3F7C6CB7673FA9D185B9F9A290 /* UIView+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = E86748C76115002E5D059B042DE500BD /* UIView+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB99E63D943E4EFFFD95792267B64E9 /* Pods-HFDraggableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1992E27C64191F7568FA4E87FBABC6DF /* Pods-HFDraggableView-dummy.m */; };
+		5F4597B57EB57D65A672F41BD514BCB4 /* UIBarButtonItem+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A9434BCE2CA246B8BFDB0FD763E24AEC /* UIBarButtonItem+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		685E4188019913C435A02703F85AFEA5 /* HFPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = D7993056E021A775B2F20932AB52E3D9 /* HFPlaceHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1634311B79EC7CDBCEAA7EFD480C9A /* HFLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F658C5AF7C6032FDE231F2FC52638C /* HFLogView.m */; };
+		6BFE5F28719E721A01F47B719B13B67C /* NSArray+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B33693F921A19BDEC105F70D4DBD21 /* NSArray+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7278C22745DE46FDF021B3E80E199304 /* HFMethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E5E5BBE7CA1AE80F5814406890FF1E /* HFMethodSwizzle.m */; };
+		734B033338430F1E98944781A4CA4876 /* CGGeometry+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 825E30662B1B029A3084991D1CB7F8EA /* CGGeometry+HFFoundation.m */; };
+		75745B780C609E773493DFB46B603ED1 /* CGGeometry+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 863987ACB70E4AC21231FF5E5DCE0A2F /* CGGeometry+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D0F9411499767D108827BA5E3176F67 /* HFSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BF05985EDFA34D36504A786CD519F2 /* HFSlideMenu.m */; };
+		81833658E28814FF76EA6D2B3A3273EE /* HFTapImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3057BA62FC2C1E4D67B9914216F95595 /* HFTapImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82FD2FE72A542F8035FAF9DEBA2C888F /* HFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5510BE3253DE929E6A8315CF056198E3 /* HFButton.m */; };
+		8CE7F782BD64C476D0B755277864A920 /* HFExampleListController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E089AC288970A9B228DB2821E047B8A /* HFExampleListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF68430D1EE32B7D8A7AF3E0844AF69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E6E798E7592BDADA0816D34B091D60 /* CoreGraphics.framework */; };
+		909604DCD1174B19E3C427BADDB5E33B /* UIColor+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B860FDAE6D5829B1B5ABA1364639F62E /* UIColor+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91799F4D630CABDE381FC00BCE715661 /* NSDate+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 237A0CCF4E9F0862A63673B1218C27CC /* NSDate+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968C8D45AF6C69712F834683113D50A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92896612BF9043CD8EB9B2FE23DB67A1 /* UIKit.framework */; };
+		99A167A18A78499F5A20DEA1C53FA9B5 /* HFTapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB70A788FC4E7589FD1EDC2DC8428B66 /* HFTapImageView.m */; };
+		9ADB471FE1E5D2F29BA1BA407DCCA7E3 /* UIScrollView+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5356AD8937BB6DA74CDA69FAAFAD2452 /* UIScrollView+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50DB283EFD55709D95F251E80C43560 /* NSObject+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35589C2CC0446057D1423F4808C38043 /* NSObject+HFFoundation.m */; };
+		A55CCFDC59330C55DAAD5D77D9B5EBCF /* HFButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 861FB1273158DA58C7392F2DD9A81385 /* HFButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACA002EA450CF4D97B282590AE791714 /* UIColor+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8DE8BFEF48534F957C36C893DF97BB /* UIColor+HFFoundation.m */; };
+		B2C8A537BFE6AF9FD984D0508DD57750 /* UIView+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91392FD5D225554207CCF2600021B9A8 /* UIView+HFFoundation.m */; };
+		B35AE7D3F7E4FBAE1D83CB5A7E4663C6 /* HFMethodSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = F3EC6D5772D307F625989C6EE8CE22EB /* HFMethodSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B62903B153BBAC25F7E6EC81AD482961 /* HFLogView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1079EA464F5EB98A36E48C979FC48FD /* HFLogView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B633801BD0AB4ED4F5BC5900CAFAD411 /* UIImage+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FEC1C91F5578757A04E20F40690B32 /* UIImage+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B766A76E7977D9D08B8EF6D30814BCAE /* NSString+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A96D336398109EF3FB85DD4307EE20 /* NSString+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC12A8806F350C254F40761A6680CC4B /* HFCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B00C85C3FDAE6A9A6A7766B2BA7913F /* HFCountDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0AB2234A2BC7C17BC9825020034FA2 /* HFMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FE0D4BC7B3CCD07B0B68FB512CAD7D /* HFMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4FDA3B01CAF42699E2116A7F54CFA68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515752A6021EEB552BC00D106969B6EF /* Foundation.framework */; };
+		C571EC42403FA7EAAA21E2094775E0A1 /* NSDate+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EE7335E773685FC9CD347DFEF5A56 /* NSDate+HFFoundation.m */; };
+		CE2AD5C01F253BB11C209D6616CC4B1B /* HFFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DE662FD2493B629EEDE4D4486081C1 /* HFFPSLabel.m */; };
+		DC9B91D6403C34B20FC810BE380F605B /* NSDictionary+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F66120B4B66B5BF6E9D8710B425FE0B /* NSDictionary+HFFoundation.m */; };
+		E2831935429C8326FBA3A5F84716216C /* UIButton+HFFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE1EAB49DBE0102B6F6047B9B96BFBF /* UIButton+HFFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E45B44C591820F2B4C1434B8EBDF569B /* UIImage+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB57398CAE4BF6B91DE06D799C629E /* UIImage+HFFoundation.m */; };
+		E45F6A1743102FCB1246C3FBF13A58DB /* HFKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D521832078822CC3AF0057EA2DA797B4 /* HFKeyChainStore.m */; };
+		E844DE3084DC69A1E1344EBE719D28FD /* HFSlideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0226A87D1C4F65AB8472D478D6EFCF06 /* HFSlideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EABDD397A2E07976ABB805500C0FE0E5 /* NSArray+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2527B54FD3C359F62C91B16894B86B /* NSArray+HFFoundation.m */; };
+		F27BC2637C2056FD8E7D7CED4523511D /* UIScrollView+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6493D2BD53FAA7F19EBA1B7ADADD5B77 /* UIScrollView+HFFoundation.m */; };
+		F2B9DCFDF9175CC241D107C975C07AB1 /* HFCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C307EEBBD0E53E53AE63EC33BFEDB98A /* HFCountDownButton.m */; };
+		FCAAC979C80A673C08D725A83139E081 /* UIImageView+HFFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A27D4896E5D3CAB0014E7301319B380C /* UIImageView+HFFoundation.m */; };
+		FF2BF9FD38160A9B5B6D4171B16CE4BF /* HFFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C8B5DBAB2D9DDF583D7B355009E82E /* HFFoundation-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01196FDD2027071E892CB9B2DC5B1B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D6AAFFFBF36D26A126E4DBE0AE3066;
+			remoteInfo = HFFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009537707E3459E96D8A114D8261311B /* HFPlaceHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFPlaceHolder.m; path = HFFoundation/HFFoundation/Util/HFPlaceHolder.m; sourceTree = "<group>"; };
+		01FEC1C91F5578757A04E20F40690B32 /* UIImage+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/UIKit/UIImage+HFFoundation.h"; sourceTree = "<group>"; };
+		0226A87D1C4F65AB8472D478D6EFCF06 /* HFSlideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFSlideMenu.h; path = HFFoundation/HFFoundation/View/HFSlideMenu.h; sourceTree = "<group>"; };
+		03E6E798E7592BDADA0816D34B091D60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0743EC7DDF015C63BF8E4D47DC327E46 /* Pods-HFDraggableView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFDraggableView-acknowledgements.plist"; sourceTree = "<group>"; };
+		08AC7FB1EE8678B71ED54EDFBE543991 /* Pods-HFDraggableView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFDraggableView-resources.sh"; sourceTree = "<group>"; };
+		0E089AC288970A9B228DB2821E047B8A /* HFExampleListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFExampleListController.h; path = HFFoundation/HFFoundation/Controller/HFExampleListController.h; sourceTree = "<group>"; };
+		179EA88526FC056233FD41BD17886CE3 /* UIViewController+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/UIKit/UIViewController+HFFoundation.m"; sourceTree = "<group>"; };
+		1992E27C64191F7568FA4E87FBABC6DF /* Pods-HFDraggableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFDraggableView-dummy.m"; sourceTree = "<group>"; };
+		1AE1EAB49DBE0102B6F6047B9B96BFBF /* UIButton+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/UIKit/UIButton+HFFoundation.h"; sourceTree = "<group>"; };
+		1DE1B5B70F6C9EAD2975052715B14340 /* HFSystemLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFSystemLog.h; path = HFFoundation/HFFoundation/Util/HFSystemLog.h; sourceTree = "<group>"; };
+		237A0CCF4E9F0862A63673B1218C27CC /* NSDate+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/Foundation/NSDate+HFFoundation.h"; sourceTree = "<group>"; };
+		27389C4988855377632406D4042CC941 /* Pods-HFDraggableView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFDraggableView-frameworks.sh"; sourceTree = "<group>"; };
+		2E2527B54FD3C359F62C91B16894B86B /* NSArray+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/Foundation/NSArray+HFFoundation.m"; sourceTree = "<group>"; };
+		3057BA62FC2C1E4D67B9914216F95595 /* HFTapImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFTapImageView.h; path = HFFoundation/HFFoundation/View/HFTapImageView.h; sourceTree = "<group>"; };
+		35589C2CC0446057D1423F4808C38043 /* NSObject+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/Foundation/NSObject+HFFoundation.m"; sourceTree = "<group>"; };
+		35DE662FD2493B629EEDE4D4486081C1 /* HFFPSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFFPSLabel.m; path = HFFoundation/HFFoundation/View/HFFPSLabel.m; sourceTree = "<group>"; };
+		36A96D336398109EF3FB85DD4307EE20 /* NSString+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/Foundation/NSString+HFFoundation.h"; sourceTree = "<group>"; };
+		38F658C5AF7C6032FDE231F2FC52638C /* HFLogView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFLogView.m; path = HFFoundation/HFFoundation/View/HFLogView.m; sourceTree = "<group>"; };
+		4B82D4CC217B067802804ECA8EEE46C0 /* UIButton+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/UIKit/UIButton+HFFoundation.m"; sourceTree = "<group>"; };
+		4F66120B4B66B5BF6E9D8710B425FE0B /* NSDictionary+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/Foundation/NSDictionary+HFFoundation.m"; sourceTree = "<group>"; };
+		515752A6021EEB552BC00D106969B6EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5356AD8937BB6DA74CDA69FAAFAD2452 /* UIScrollView+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/UIKit/UIScrollView+HFFoundation.h"; sourceTree = "<group>"; };
+		5510BE3253DE929E6A8315CF056198E3 /* HFButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFButton.m; path = HFFoundation/HFFoundation/View/HFButton.m; sourceTree = "<group>"; };
+		6493D2BD53FAA7F19EBA1B7ADADD5B77 /* UIScrollView+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/UIKit/UIScrollView+HFFoundation.m"; sourceTree = "<group>"; };
+		6A552D8144AB70200EAE561682D457B8 /* HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFFoundation.h; path = HFFoundation/HFFoundation/HFFoundation.h; sourceTree = "<group>"; };
+		70DC2D72ABA920014D5AA3C7942EED78 /* HFKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFKeyChainStore.h; path = HFFoundation/HFFoundation/Util/HFKeyChainStore.h; sourceTree = "<group>"; };
+		78B33693F921A19BDEC105F70D4DBD21 /* NSArray+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/Foundation/NSArray+HFFoundation.h"; sourceTree = "<group>"; };
+		79BF05985EDFA34D36504A786CD519F2 /* HFSlideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFSlideMenu.m; path = HFFoundation/HFFoundation/View/HFSlideMenu.m; sourceTree = "<group>"; };
+		79FE0D4BC7B3CCD07B0B68FB512CAD7D /* HFMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFMacro.h; path = HFFoundation/HFFoundation/Util/HFMacro.h; sourceTree = "<group>"; };
+		825E30662B1B029A3084991D1CB7F8EA /* CGGeometry+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/CoreGraphics/CGGeometry+HFFoundation.m"; sourceTree = "<group>"; };
+		8477556AF9B0A8792A993996F2F1A664 /* libHFFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHFFoundation.a; path = libHFFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		854C6D44927DE854E7971EBDD946141C /* HFFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFFoundation.xcconfig; sourceTree = "<group>"; };
+		861FB1273158DA58C7392F2DD9A81385 /* HFButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFButton.h; path = HFFoundation/HFFoundation/View/HFButton.h; sourceTree = "<group>"; };
+		863987ACB70E4AC21231FF5E5DCE0A2F /* CGGeometry+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/CoreGraphics/CGGeometry+HFFoundation.h"; sourceTree = "<group>"; };
+		895EB2C86A555FCE6AC30D2D4D39E3B2 /* HFFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFFoundation-prefix.pch"; sourceTree = "<group>"; };
+		8969F1457EDBDDC6D23C5543D307A0CE /* HFPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFPageView.h; path = HFFoundation/HFFoundation/View/HFPageView.h; sourceTree = "<group>"; };
+		91392FD5D225554207CCF2600021B9A8 /* UIView+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/UIKit/UIView+HFFoundation.m"; sourceTree = "<group>"; };
+		92896612BF9043CD8EB9B2FE23DB67A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97E5E5BBE7CA1AE80F5814406890FF1E /* HFMethodSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFMethodSwizzle.m; path = HFFoundation/HFFoundation/Util/HFMethodSwizzle.m; sourceTree = "<group>"; };
+		9B00C85C3FDAE6A9A6A7766B2BA7913F /* HFCountDownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFCountDownButton.h; path = HFFoundation/HFFoundation/View/HFCountDownButton.h; sourceTree = "<group>"; };
+		A1F4C55C9332DC47B5C3DEA8003946C0 /* Pods-HFDraggableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFDraggableView.debug.xcconfig"; sourceTree = "<group>"; };
+		A27D4896E5D3CAB0014E7301319B380C /* UIImageView+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/UIKit/UIImageView+HFFoundation.m"; sourceTree = "<group>"; };
+		A6C8B5DBAB2D9DDF583D7B355009E82E /* HFFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFFoundation-dummy.m"; sourceTree = "<group>"; };
+		A7052B46AB5C0F9474DF9BB76028E9D2 /* UIImageView+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/UIKit/UIImageView+HFFoundation.h"; sourceTree = "<group>"; };
+		A9434BCE2CA246B8BFDB0FD763E24AEC /* UIBarButtonItem+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/UIKit/UIBarButtonItem+HFFoundation.h"; sourceTree = "<group>"; };
+		B7AD3BA7CE87590D37C2A552C2ACE367 /* Pods-HFDraggableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFDraggableView.release.xcconfig"; sourceTree = "<group>"; };
+		B860FDAE6D5829B1B5ABA1364639F62E /* UIColor+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/UIKit/UIColor+HFFoundation.h"; sourceTree = "<group>"; };
+		BAFCE419A58BB765B27BA51DAC7A321B /* HFExampleListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFExampleListController.m; path = HFFoundation/HFFoundation/Controller/HFExampleListController.m; sourceTree = "<group>"; };
+		BEA994A1ADDDEB010E9FDB9DEAA8378C /* NSDictionary+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/Foundation/NSDictionary+HFFoundation.h"; sourceTree = "<group>"; };
+		C307EEBBD0E53E53AE63EC33BFEDB98A /* HFCountDownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFCountDownButton.m; path = HFFoundation/HFFoundation/View/HFCountDownButton.m; sourceTree = "<group>"; };
+		C4562F64AB62541286FB13C6C24D0B25 /* libPods-HFDraggableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HFDraggableView.a"; path = "libPods-HFDraggableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB25FEE27E29CAC168399F1008270CFE /* NSString+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/Foundation/NSString+HFFoundation.m"; sourceTree = "<group>"; };
+		CF8EE7335E773685FC9CD347DFEF5A56 /* NSDate+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/Foundation/NSDate+HFFoundation.m"; sourceTree = "<group>"; };
+		D0C8BC90397594220AC48EC3DA485DA4 /* Pods-HFDraggableView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFDraggableView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D217D86514677F2023C982BCEC6D385D /* UIViewController+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/UIKit/UIViewController+HFFoundation.h"; sourceTree = "<group>"; };
+		D27A42EEDFFDABB73014EB6607CB7A14 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D521832078822CC3AF0057EA2DA797B4 /* HFKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFKeyChainStore.m; path = HFFoundation/HFFoundation/Util/HFKeyChainStore.m; sourceTree = "<group>"; };
+		D7993056E021A775B2F20932AB52E3D9 /* HFPlaceHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFPlaceHolder.h; path = HFFoundation/HFFoundation/Util/HFPlaceHolder.h; sourceTree = "<group>"; };
+		DF2A8BA343D79D81801B31A6F077F3F9 /* HFPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFPageView.m; path = HFFoundation/HFFoundation/View/HFPageView.m; sourceTree = "<group>"; };
+		E86748C76115002E5D059B042DE500BD /* UIView+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/UIKit/UIView+HFFoundation.h"; sourceTree = "<group>"; };
+		E8C250931DA289C6D35F331649D866E9 /* HFSystemLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFSystemLog.m; path = HFFoundation/HFFoundation/Util/HFSystemLog.m; sourceTree = "<group>"; };
+		EC3DABC8A8935B57808F011C8372C89F /* UIBarButtonItem+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/UIKit/UIBarButtonItem+HFFoundation.m"; sourceTree = "<group>"; };
+		ECD413E0CF9AC0C208CB6B9EEF46BE32 /* HFFPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFFPSLabel.h; path = HFFoundation/HFFoundation/View/HFFPSLabel.h; sourceTree = "<group>"; };
+		EE4B392157DA439FC7914F00BC0B3C10 /* NSObject+HFFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HFFoundation.h"; path = "HFFoundation/HFFoundation/Category/Foundation/NSObject+HFFoundation.h"; sourceTree = "<group>"; };
+		F1079EA464F5EB98A36E48C979FC48FD /* HFLogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFLogView.h; path = HFFoundation/HFFoundation/View/HFLogView.h; sourceTree = "<group>"; };
+		F2FB57398CAE4BF6B91DE06D799C629E /* UIImage+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/UIKit/UIImage+HFFoundation.m"; sourceTree = "<group>"; };
+		F3EC6D5772D307F625989C6EE8CE22EB /* HFMethodSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFMethodSwizzle.h; path = HFFoundation/HFFoundation/Util/HFMethodSwizzle.h; sourceTree = "<group>"; };
+		FB70A788FC4E7589FD1EDC2DC8428B66 /* HFTapImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFTapImageView.m; path = HFFoundation/HFFoundation/View/HFTapImageView.m; sourceTree = "<group>"; };
+		FF8DE8BFEF48534F957C36C893DF97BB /* UIColor+HFFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HFFoundation.m"; path = "HFFoundation/HFFoundation/Category/UIKit/UIColor+HFFoundation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1DDC64AD6981FE9CD708F166F5D882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130AA7A615441356B609153A1CAF1405 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2377521E380860A53D87B32D347FCCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A2CF0F6F5E4485430B6AB560B6399C /* CoreFoundation.framework in Frameworks */,
+				8CF68430D1EE32B7D8A7AF3E0844AF69 /* CoreGraphics.framework in Frameworks */,
+				C4FDA3B01CAF42699E2116A7F54CFA68 /* Foundation.framework in Frameworks */,
+				968C8D45AF6C69712F834683113D50A2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023BD9A6C074072A7A071049F76A2C22 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68F8E0CD6F437BDE78FB44B1F45EFE2F /* Pods-HFDraggableView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0DCE46224D822376853D3CA8F9DD6D0D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				863987ACB70E4AC21231FF5E5DCE0A2F /* CGGeometry+HFFoundation.h */,
+				825E30662B1B029A3084991D1CB7F8EA /* CGGeometry+HFFoundation.m */,
+				78B33693F921A19BDEC105F70D4DBD21 /* NSArray+HFFoundation.h */,
+				2E2527B54FD3C359F62C91B16894B86B /* NSArray+HFFoundation.m */,
+				237A0CCF4E9F0862A63673B1218C27CC /* NSDate+HFFoundation.h */,
+				CF8EE7335E773685FC9CD347DFEF5A56 /* NSDate+HFFoundation.m */,
+				BEA994A1ADDDEB010E9FDB9DEAA8378C /* NSDictionary+HFFoundation.h */,
+				4F66120B4B66B5BF6E9D8710B425FE0B /* NSDictionary+HFFoundation.m */,
+				EE4B392157DA439FC7914F00BC0B3C10 /* NSObject+HFFoundation.h */,
+				35589C2CC0446057D1423F4808C38043 /* NSObject+HFFoundation.m */,
+				36A96D336398109EF3FB85DD4307EE20 /* NSString+HFFoundation.h */,
+				CB25FEE27E29CAC168399F1008270CFE /* NSString+HFFoundation.m */,
+				A9434BCE2CA246B8BFDB0FD763E24AEC /* UIBarButtonItem+HFFoundation.h */,
+				EC3DABC8A8935B57808F011C8372C89F /* UIBarButtonItem+HFFoundation.m */,
+				1AE1EAB49DBE0102B6F6047B9B96BFBF /* UIButton+HFFoundation.h */,
+				4B82D4CC217B067802804ECA8EEE46C0 /* UIButton+HFFoundation.m */,
+				B860FDAE6D5829B1B5ABA1364639F62E /* UIColor+HFFoundation.h */,
+				FF8DE8BFEF48534F957C36C893DF97BB /* UIColor+HFFoundation.m */,
+				01FEC1C91F5578757A04E20F40690B32 /* UIImage+HFFoundation.h */,
+				F2FB57398CAE4BF6B91DE06D799C629E /* UIImage+HFFoundation.m */,
+				A7052B46AB5C0F9474DF9BB76028E9D2 /* UIImageView+HFFoundation.h */,
+				A27D4896E5D3CAB0014E7301319B380C /* UIImageView+HFFoundation.m */,
+				5356AD8937BB6DA74CDA69FAAFAD2452 /* UIScrollView+HFFoundation.h */,
+				6493D2BD53FAA7F19EBA1B7ADADD5B77 /* UIScrollView+HFFoundation.m */,
+				E86748C76115002E5D059B042DE500BD /* UIView+HFFoundation.h */,
+				91392FD5D225554207CCF2600021B9A8 /* UIView+HFFoundation.m */,
+				D217D86514677F2023C982BCEC6D385D /* UIViewController+HFFoundation.h */,
+				179EA88526FC056233FD41BD17886CE3 /* UIViewController+HFFoundation.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5BAC7C1BEA2A741085CFA5680CBF6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2843DD6A4A5FCF9293F852F6CB7EB7F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8477556AF9B0A8792A993996F2F1A664 /* libHFFoundation.a */,
+				C4562F64AB62541286FB13C6C24D0B25 /* libPods-HFDraggableView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C52A9D5CFC241FE8D44610EE7884460 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				854C6D44927DE854E7971EBDD946141C /* HFFoundation.xcconfig */,
+				A6C8B5DBAB2D9DDF583D7B355009E82E /* HFFoundation-dummy.m */,
+				895EB2C86A555FCE6AC30D2D4D39E3B2 /* HFFoundation-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HFFoundation";
+			sourceTree = "<group>";
+		};
+		4B6BEA9D5B0F091AAD16D7C05BC26279 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				70DC2D72ABA920014D5AA3C7942EED78 /* HFKeyChainStore.h */,
+				D521832078822CC3AF0057EA2DA797B4 /* HFKeyChainStore.m */,
+				79FE0D4BC7B3CCD07B0B68FB512CAD7D /* HFMacro.h */,
+				F3EC6D5772D307F625989C6EE8CE22EB /* HFMethodSwizzle.h */,
+				97E5E5BBE7CA1AE80F5814406890FF1E /* HFMethodSwizzle.m */,
+				D7993056E021A775B2F20932AB52E3D9 /* HFPlaceHolder.h */,
+				009537707E3459E96D8A114D8261311B /* HFPlaceHolder.m */,
+				1DE1B5B70F6C9EAD2975052715B14340 /* HFSystemLog.h */,
+				E8C250931DA289C6D35F331649D866E9 /* HFSystemLog.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		54240FFCD59C327F2F3FF97AC26C7A16 /* HFFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				6A552D8144AB70200EAE561682D457B8 /* HFFoundation.h */,
+				0DCE46224D822376853D3CA8F9DD6D0D /* Category */,
+				830033651448A9EC669EAD66046375D2 /* Controller */,
+				3C52A9D5CFC241FE8D44610EE7884460 /* Support Files */,
+				4B6BEA9D5B0F091AAD16D7C05BC26279 /* Util */,
+				E3CF4263C70F2AB336E72487D2E3E6AB /* View */,
+			);
+			name = HFFoundation;
+			path = HFFoundation;
+			sourceTree = "<group>";
+		};
+		68F8E0CD6F437BDE78FB44B1F45EFE2F /* Pods-HFDraggableView */ = {
+			isa = PBXGroup;
+			children = (
+				D0C8BC90397594220AC48EC3DA485DA4 /* Pods-HFDraggableView-acknowledgements.markdown */,
+				0743EC7DDF015C63BF8E4D47DC327E46 /* Pods-HFDraggableView-acknowledgements.plist */,
+				1992E27C64191F7568FA4E87FBABC6DF /* Pods-HFDraggableView-dummy.m */,
+				27389C4988855377632406D4042CC941 /* Pods-HFDraggableView-frameworks.sh */,
+				08AC7FB1EE8678B71ED54EDFBE543991 /* Pods-HFDraggableView-resources.sh */,
+				A1F4C55C9332DC47B5C3DEA8003946C0 /* Pods-HFDraggableView.debug.xcconfig */,
+				B7AD3BA7CE87590D37C2A552C2ACE367 /* Pods-HFDraggableView.release.xcconfig */,
+			);
+			name = "Pods-HFDraggableView";
+			path = "Target Support Files/Pods-HFDraggableView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				D8CD38D947CEAC6531DBB9A291B3E701 /* Pods */,
+				2843DD6A4A5FCF9293F852F6CB7EB7F1 /* Products */,
+				023BD9A6C074072A7A071049F76A2C22 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		830033651448A9EC669EAD66046375D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E089AC288970A9B228DB2821E047B8A /* HFExampleListController.h */,
+				BAFCE419A58BB765B27BA51DAC7A321B /* HFExampleListController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B5A5BAC7C1BEA2A741085CFA5680CBF6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D27A42EEDFFDABB73014EB6607CB7A14 /* CoreFoundation.framework */,
+				03E6E798E7592BDADA0816D34B091D60 /* CoreGraphics.framework */,
+				515752A6021EEB552BC00D106969B6EF /* Foundation.framework */,
+				92896612BF9043CD8EB9B2FE23DB67A1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8CD38D947CEAC6531DBB9A291B3E701 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54240FFCD59C327F2F3FF97AC26C7A16 /* HFFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3CF4263C70F2AB336E72487D2E3E6AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				861FB1273158DA58C7392F2DD9A81385 /* HFButton.h */,
+				5510BE3253DE929E6A8315CF056198E3 /* HFButton.m */,
+				9B00C85C3FDAE6A9A6A7766B2BA7913F /* HFCountDownButton.h */,
+				C307EEBBD0E53E53AE63EC33BFEDB98A /* HFCountDownButton.m */,
+				ECD413E0CF9AC0C208CB6B9EEF46BE32 /* HFFPSLabel.h */,
+				35DE662FD2493B629EEDE4D4486081C1 /* HFFPSLabel.m */,
+				F1079EA464F5EB98A36E48C979FC48FD /* HFLogView.h */,
+				38F658C5AF7C6032FDE231F2FC52638C /* HFLogView.m */,
+				8969F1457EDBDDC6D23C5543D307A0CE /* HFPageView.h */,
+				DF2A8BA343D79D81801B31A6F077F3F9 /* HFPageView.m */,
+				0226A87D1C4F65AB8472D478D6EFCF06 /* HFSlideMenu.h */,
+				79BF05985EDFA34D36504A786CD519F2 /* HFSlideMenu.m */,
+				3057BA62FC2C1E4D67B9914216F95595 /* HFTapImageView.h */,
+				FB70A788FC4E7589FD1EDC2DC8428B66 /* HFTapImageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		733267C48924DE31E257F9CD84837E54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75745B780C609E773493DFB46B603ED1 /* CGGeometry+HFFoundation.h in Headers */,
+				A55CCFDC59330C55DAAD5D77D9B5EBCF /* HFButton.h in Headers */,
+				BC12A8806F350C254F40761A6680CC4B /* HFCountDownButton.h in Headers */,
+				8CE7F782BD64C476D0B755277864A920 /* HFExampleListController.h in Headers */,
+				423E2BF7077CBA66A9E761A3CDC82E30 /* HFFoundation.h in Headers */,
+				37645A9C1F77E2BCB0F0852E430B49B1 /* HFFPSLabel.h in Headers */,
+				3AF432437EFA2D6A3CA8115BDDF68BEB /* HFKeyChainStore.h in Headers */,
+				B62903B153BBAC25F7E6EC81AD482961 /* HFLogView.h in Headers */,
+				BF0AB2234A2BC7C17BC9825020034FA2 /* HFMacro.h in Headers */,
+				B35AE7D3F7E4FBAE1D83CB5A7E4663C6 /* HFMethodSwizzle.h in Headers */,
+				58272FF7AB718A2AF18F6AD145E47C62 /* HFPageView.h in Headers */,
+				685E4188019913C435A02703F85AFEA5 /* HFPlaceHolder.h in Headers */,
+				E844DE3084DC69A1E1344EBE719D28FD /* HFSlideMenu.h in Headers */,
+				47BDDF519C8A9A0F635000E889F75B65 /* HFSystemLog.h in Headers */,
+				81833658E28814FF76EA6D2B3A3273EE /* HFTapImageView.h in Headers */,
+				6BFE5F28719E721A01F47B719B13B67C /* NSArray+HFFoundation.h in Headers */,
+				91799F4D630CABDE381FC00BCE715661 /* NSDate+HFFoundation.h in Headers */,
+				23BB34915E2D33435B3E749D22CFF7F6 /* NSDictionary+HFFoundation.h in Headers */,
+				329F380B84B73DBAF4FCBB3D3EA693AF /* NSObject+HFFoundation.h in Headers */,
+				B766A76E7977D9D08B8EF6D30814BCAE /* NSString+HFFoundation.h in Headers */,
+				5F4597B57EB57D65A672F41BD514BCB4 /* UIBarButtonItem+HFFoundation.h in Headers */,
+				E2831935429C8326FBA3A5F84716216C /* UIButton+HFFoundation.h in Headers */,
+				909604DCD1174B19E3C427BADDB5E33B /* UIColor+HFFoundation.h in Headers */,
+				B633801BD0AB4ED4F5BC5900CAFAD411 /* UIImage+HFFoundation.h in Headers */,
+				48F1EDED36D24DBCE03986FCEE288495 /* UIImageView+HFFoundation.h in Headers */,
+				9ADB471FE1E5D2F29BA1BA407DCCA7E3 /* UIScrollView+HFFoundation.h in Headers */,
+				5B97FE3F7C6CB7673FA9D185B9F9A290 /* UIView+HFFoundation.h in Headers */,
+				200DFBE78FCD73BEDF286B50F7FD6908 /* UIViewController+HFFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4D6AAFFFBF36D26A126E4DBE0AE3066 /* HFFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9862DE098604BB61281561B083BE2E63 /* Build configuration list for PBXNativeTarget "HFFoundation" */;
+			buildPhases = (
+				BBDFA22021C637F52ABBE46AE42AEE23 /* Sources */,
+				2377521E380860A53D87B32D347FCCB2 /* Frameworks */,
+				733267C48924DE31E257F9CD84837E54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFFoundation;
+			productName = HFFoundation;
+			productReference = 8477556AF9B0A8792A993996F2F1A664 /* libHFFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FCC9F9A9EA1A0DC3A341623ADF26775B /* Pods-HFDraggableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF397962D818112379E961B257B189FA /* Build configuration list for PBXNativeTarget "Pods-HFDraggableView" */;
+			buildPhases = (
+				EC17954A68D81AF1ADEC5A5229679B7F /* Sources */,
+				1E1DDC64AD6981FE9CD708F166F5D882 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7897358A80FBECDC2A9A4B57941DEED0 /* PBXTargetDependency */,
+			);
+			name = "Pods-HFDraggableView";
+			productName = "Pods-HFDraggableView";
+			productReference = C4562F64AB62541286FB13C6C24D0B25 /* libPods-HFDraggableView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2843DD6A4A5FCF9293F852F6CB7EB7F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D6AAFFFBF36D26A126E4DBE0AE3066 /* HFFoundation */,
+				FCC9F9A9EA1A0DC3A341623ADF26775B /* Pods-HFDraggableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDFA22021C637F52ABBE46AE42AEE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734B033338430F1E98944781A4CA4876 /* CGGeometry+HFFoundation.m in Sources */,
+				82FD2FE72A542F8035FAF9DEBA2C888F /* HFButton.m in Sources */,
+				F2B9DCFDF9175CC241D107C975C07AB1 /* HFCountDownButton.m in Sources */,
+				5AE39FE25CB9421C38997B283CE090A1 /* HFExampleListController.m in Sources */,
+				FF2BF9FD38160A9B5B6D4171B16CE4BF /* HFFoundation-dummy.m in Sources */,
+				CE2AD5C01F253BB11C209D6616CC4B1B /* HFFPSLabel.m in Sources */,
+				E45F6A1743102FCB1246C3FBF13A58DB /* HFKeyChainStore.m in Sources */,
+				6B1634311B79EC7CDBCEAA7EFD480C9A /* HFLogView.m in Sources */,
+				7278C22745DE46FDF021B3E80E199304 /* HFMethodSwizzle.m in Sources */,
+				4B87D1B503A213C1F81227EB58F4199D /* HFPageView.m in Sources */,
+				5832790DA8907539EFEAEF3AB3EA5BA9 /* HFPlaceHolder.m in Sources */,
+				7D0F9411499767D108827BA5E3176F67 /* HFSlideMenu.m in Sources */,
+				3BCC10E8168F647891D2EFA66E7F6651 /* HFSystemLog.m in Sources */,
+				99A167A18A78499F5A20DEA1C53FA9B5 /* HFTapImageView.m in Sources */,
+				EABDD397A2E07976ABB805500C0FE0E5 /* NSArray+HFFoundation.m in Sources */,
+				C571EC42403FA7EAAA21E2094775E0A1 /* NSDate+HFFoundation.m in Sources */,
+				DC9B91D6403C34B20FC810BE380F605B /* NSDictionary+HFFoundation.m in Sources */,
+				A50DB283EFD55709D95F251E80C43560 /* NSObject+HFFoundation.m in Sources */,
+				44C8EF7BD60BAB9FE57FCE63976D7D03 /* NSString+HFFoundation.m in Sources */,
+				062EF89D04E6BF68CF9AE1F380EBECD6 /* UIBarButtonItem+HFFoundation.m in Sources */,
+				4BD6FAD775B02056E4B104257B1B101A /* UIButton+HFFoundation.m in Sources */,
+				ACA002EA450CF4D97B282590AE791714 /* UIColor+HFFoundation.m in Sources */,
+				E45B44C591820F2B4C1434B8EBDF569B /* UIImage+HFFoundation.m in Sources */,
+				FCAAC979C80A673C08D725A83139E081 /* UIImageView+HFFoundation.m in Sources */,
+				F27BC2637C2056FD8E7D7CED4523511D /* UIScrollView+HFFoundation.m in Sources */,
+				B2C8A537BFE6AF9FD984D0508DD57750 /* UIView+HFFoundation.m in Sources */,
+				427BD281FED2083F4F21D3014DC28617 /* UIViewController+HFFoundation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC17954A68D81AF1ADEC5A5229679B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB99E63D943E4EFFFD95792267B64E9 /* Pods-HFDraggableView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7897358A80FBECDC2A9A4B57941DEED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HFFoundation;
+			target = D4D6AAFFFBF36D26A126E4DBE0AE3066 /* HFFoundation */;
+			targetProxy = 01196FDD2027071E892CB9B2DC5B1B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC16A785AFF9C5523E2381A16E8AB051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854C6D44927DE854E7971EBDD946141C /* HFFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HFFoundation/HFFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF6986710E17CBD56DCE44B8245EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854C6D44927DE854E7971EBDD946141C /* HFFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HFFoundation/HFFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0EFA0F88797298E5747BFA4B8F04A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F4C55C9332DC47B5C3DEA8003946C0 /* Pods-HFDraggableView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF335F59B57284CE010A4449C4F4726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7AD3BA7CE87590D37C2A552C2ACE367 /* Pods-HFDraggableView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9862DE098604BB61281561B083BE2E63 /* Build configuration list for PBXNativeTarget "HFFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC16A785AFF9C5523E2381A16E8AB051 /* Debug */,
+				BDF6986710E17CBD56DCE44B8245EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF397962D818112379E961B257B189FA /* Build configuration list for PBXNativeTarget "Pods-HFDraggableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EFA0F88797298E5747BFA4B8F04A30 /* Debug */,
+				FEF335F59B57284CE010A4449C4F4726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
